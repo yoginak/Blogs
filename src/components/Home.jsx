@@ -7,12 +7,17 @@ const Home = () => {
       <h1>My Projects Blog</h1>
       <ul>
         <li>
-          <Link to="/project/reflectify">Reflectify Project</Link>
+          <Link to="/project/brainflix">BrainFlix</Link>
         </li>
         <li>
-          <Link to="/project/recipe-spark">Recipe Spark Project</Link>
+          <Link to="/project/Bandsite">Bandsite</Link>
         </li>
-        {/* Add more links to projects here */}
+        <li>
+          <Link to="/project/coffeeshop">Coffee Shop</Link>
+        </li>
+        <li>
+          <Link to="/project/instock">Instock</Link>
+        </li>
       </ul>
     </div>
   );
