@@ -8,7 +8,7 @@ const projectData = {
         title: 'Behind the Scenes of BrainFlix: A Full-Stack Journey',
         description: 'In this blog post, I will take you behind the scenes of the development process for BrainFlix, a full-stack project that showcases my skills across various technologies, including React, React-Router, Node.js, Express, and APIs. I will share the technical details and standout features that make BrainFlix unique.',
         projectOverview: 'BrainFlix is a dynamic video-sharing application inspired by platforms like YouTube. Developed during my time at BrainStation, this project was completed over three one-week sprints, focusing on understanding the fundamentals of React, state management, React Router, component lifecycles, Node.js, and Express. Users can seamlessly browse through video pages using dynamic routing, upload videos, comment on them, and manage their comments. This interactive approach fosters user engagement and enhances the overall experience.',
-        videoSrc: '/videos/Demo-Brainflix.mp4',
+        videoSrc: '/videos/Demo- Brainflix.mp4',
         technologies: ['React', 'Node.js', 'Express', 'APIs'],
         features: [
             'Fully Responsive Design: The application seamlessly adapts to various screen sizes, ensuring an optimal viewing experience on desktop, tablet, and mobile devices.',
@@ -97,6 +97,7 @@ const ProjectPage = () => {
 
     return (
         <div className="project-page">
+             <a href="/" className="back-home-link">Back to Home</a>
              {project.videoSrc ? (
                 <Video src={project.videoSrc} title={project.title} />
             ) : (

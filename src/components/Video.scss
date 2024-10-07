@@ -1,0 +1,42 @@
+@import "../styles/partial/mixins";
+@import "../styles/partial/typography";
+
+.video {
+    &__title {
+      margin-bottom: 2rem;
+      text-align: center;
+      color: #333;
+    }
+  
+    &__content {
+      display: block;
+      width: 90%;  
+      max-width: 100%; 
+      height: auto;  
+      margin: 0 auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border: 4px solid #131212;
+    }
+  
+    @include tablet {
+      &__title {
+        margin-bottom: 1.5rem;
+      }
+  
+      &__content {
+        border: 16px solid #131212;
+      }
+    }
+  
+    @include desktop {
+      &__title {
+        margin-bottom: 1rem;
+      }
+  
+      &__content {
+        border:32px solid #131212;
+      }
+    }
+  }
+  
