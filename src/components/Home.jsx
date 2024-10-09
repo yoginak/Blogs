@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Box, Typography } from '@mui/material'; // Import Material-UI components
+import { Box, Typography } from '@mui/material'; 
 import './Home.scss';
 import Hero from './Hero';
 
@@ -66,10 +66,8 @@ const Home = () => {
   };
 
   return (
-    <Box className="home">
-      <Typography variant="h4" className="project-header">Discover My Projects</Typography>
-      
-        <p className='home__text'>I invite you to explore my curated collection of personal projects, each a reflection of my growth and dedication as a software developer. Throughout my learning journey, I have embraced challenges and sought innovative solutions, resulting in a diverse range of projects that showcase my technical skills and creativity. Thank you for taking the time to visit! I hope these projects provide you insight into my journey as a developer.</p>
+    <Box className="home">  
+              <p className='home__text'>I invite you to explore my curated collection of personal projects, each a reflection of my growth and dedication as a software developer. Throughout my learning journey, I have embraced challenges and sought innovative solutions, resulting in a diverse range of projects that showcase my technical skills and creativity. Thank you for taking the time to visit! I hope these projects provide you insight into my journey as a developer.</p>
       <Hero/>
       
       <Slider {...settings}>

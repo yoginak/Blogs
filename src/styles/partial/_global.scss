@@ -25,6 +25,10 @@ h2 {
   line-height: 1.25rem;
   font-weight: 700;
   font-family: "Comfortaa";
+  @include tablet {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
 }
 
 h3 {

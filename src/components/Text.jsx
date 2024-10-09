@@ -4,7 +4,7 @@ import "./Text.scss";
 const Text = ({ title, description, projectOverview, technologies, features, keyLearnings, note }) => {
     return (
         <div className="project-text">
-            <p>{description}</p>
+            <p className="project-description">{description}</p>
 
             <h2>Project Overview</h2>
             <p className='text__overview'>{projectOverview}</p>
@@ -33,7 +33,6 @@ const Text = ({ title, description, projectOverview, technologies, features, key
             {note && (
                 <div className="text__note">
                     <h2 className='text__note-heading'>Note</h2>
-                    {/* Render HTML content safely */}
                     <p className='text__note-body' dangerouslySetInnerHTML={{ __html: note }} />
                 </div>
             )}

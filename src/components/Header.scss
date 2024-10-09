@@ -1,0 +1,13 @@
+@import "../styles/partial/mixins";
+@import "../styles/partial/typography";
+@import "../styles/partial/variables";
+
+.project-header {
+    background: linear-gradient(90deg, $header-blue 0%, $header-purple 100%);
+    color: white;
+    display: flex;              
+    justify-content: center;   
+    margin: 0;       
+    padding: 20px; 
+    font-size: 2rem; 
+}

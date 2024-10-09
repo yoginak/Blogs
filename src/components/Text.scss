@@ -4,11 +4,17 @@
 .project-text {
     padding: 20px;
     margin-bottom: 2rem; 
+    font-size: medium;
+}
+
+.project-description{
+    font-size: medium;
 }
 
 .text {
     &__overview {
         margin-bottom: 20px;
+        font-size: medium;
     }
 
     &__tech-title,
@@ -50,8 +56,8 @@
     &__note {
         margin-top: 30px;
         padding: 15px;
-        background-color: #f9f9f9;
-        border-left: 5px solid #ccc;
+        background-color: lavender;
+        border-left: 5px solid plum;
 
         &-heading {
             margin-top: 0;
@@ -84,6 +90,6 @@
     }
 
     .text__tech-listitem:nth-child(even) {
-        background-color: #ffe0b2; 
+        background-color: lavender; 
     }
 }

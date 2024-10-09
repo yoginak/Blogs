@@ -6,6 +6,7 @@
       margin-bottom: 2rem;
       text-align: center;
       color: #333;
+      font-size: large;
     }
   
     &__content {
@@ -22,21 +23,13 @@
     @include tablet {
       &__title {
         margin-bottom: 1.5rem;
-      }
-  
-      &__content {
-        border: 16px solid #131212;
-      }
+      }  
     }
   
     @include desktop {
       &__title {
         margin-bottom: 1rem;
-      }
-  
-      &__content {
-        border:32px solid #131212;
-      }
+      }  
     }
   }
   

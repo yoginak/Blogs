@@ -2,6 +2,9 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import Video from './Video';
 import Text from './Text';
+import "./ProjectPage.scss";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons';
 
 const projectData = {
     brainflix: {
@@ -123,7 +126,7 @@ const projectData = {
             'Deepened understanding of API integration with Axios for asynchronous communication between the client and server.',
             'Gained experience in utilizing AI-based tools to offer personalized insights and enhance the user experience.'
         ],
-        note: "Reflectify was built as my capstone project and showcases advanced functionality for tracking mood trends and offering self-reflection tools. The repository for Reflectify is available on GitHub: <a href='https://github.com/your-username/reflectify' target='_blank'>GitHub Repository</a>."
+        note: "Reflectify was built as my capstone project and showcases advanced functionality for tracking mood trends and offering self-reflection tools. The repository for Reflectify is available on GitHub: <a href='https://github.com/yoginak/Reflectify' target='_blank'>GitHub Repository</a>."
         
     },
     
@@ -140,7 +143,10 @@ const ProjectPage = () => {
 
     return (
         <div className="project-page">
-             <a href="/" className="back-home-link">Back to Home</a>
+             <a className='project-page__link' href="/" >            
+            <FontAwesomeIcon icon={faArrowLeftLong} />
+            &nbsp;&nbsp;Back to Home
+        </a>
              {project.videoSrc ? (
                 <Video src={project.videoSrc} title={project.title} />
             ) : (
