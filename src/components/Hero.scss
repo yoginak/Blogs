@@ -1,0 +1,100 @@
+@import "../src/styles/partial/mixins";
+
+#svg-girl {
+	width: 100vw;
+	height: 40vh;
+    @include tablet{
+        height: 50vh;
+    }
+    @include desktop{
+        height: 90vh;
+    }
+}
+#girl-mask {
+	stroke: #f2f2f2;
+  	stroke-width: 20px;
+  	stroke-linejoin: round;
+}
+#girl,
+#girl-mask {
+	transform-origin: center;
+	transform-box: fill-box;
+	animation: girl-levitate 4s ease infinite alternate;
+}
+@keyframes girl-levitate {
+	0% {
+		transform: translate(0) rotate(-1deg);
+	}
+	50% {
+		transform: translate(0, -10px) rotate(1deg);
+	}
+	100% {
+		transform: translate(0, -20px) rotate(-1deg);
+	}
+}
+#aloe-plant {
+	transform-origin: center;
+	transform-box: fill-box;
+	animation: aloe-breathe 2s linear infinite alternate;
+}
+@keyframes aloe-breathe {
+	0% {
+		transform: scaleX(1) scaleY(1);
+	}
+	100% {
+		transform: scaleX(.8) scaleY(1.2);
+	}
+}
+#cactus-plant {
+	transform-origin: center;
+	transform-box: fill-box;
+	animation: cactus-breathe 2s 1s linear infinite alternate;
+}
+@keyframes cactus-breathe {
+	0% {
+		transform: translate(0, 0) rotate(0) scaleX(1);
+	}
+	100% {
+		transform: translate(-3px, -3px) rotate(-5deg) scaleX(.8);
+	}
+}
+#laptop-logo {
+	animation: laptop-logo .5s infinite alternate;
+}
+@keyframes laptop-logo {
+	0% {
+		fill: #3beb3e;
+	}
+	100% {
+		fill: #b6f0d2;
+	}
+}
+
+#svg-logo-container {
+	position: absolute;
+	top: 10px;
+	left: 40px;
+	width: 300px;
+	height: 50px;
+}
+#svg-logo {
+	width: 100%;
+	height: 100%;
+}
+#logo {
+	fill: transparent;
+	stroke: #f2f2f2;
+  	stroke-width: 2;
+  	stroke-dasharray: 0 300;
+  	stroke-dashoffset: 1000;
+	animation: drawing-logo 12s ease-in infinite alternate;
+ }
+
+@keyframes drawing-logo {
+  50% {
+    stroke-dasharray: 300 0;
+  }
+	100% {
+		stroke-dasharray: 300 0;
+	}
+}

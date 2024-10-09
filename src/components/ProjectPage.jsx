@@ -62,14 +62,13 @@ const projectData = {
             'Gained experience in implementing animations to improve the user experience.'
         ],
          note: "Due to intellectual property concerns, the repository for this project cannot be made public but can be provided for review upon request."
-    },
-    
+    },  
 
     instock: {
         title: 'Behind the Scenes of InStock: A Comprehensive Inventory Management System',
         description: 'In this blog post, I will share the journey of developing InStock, an inventory management system designed to emulate a real chain of warehouses. Our goal was to create an intuitive and powerful system that enables clients to efficiently manage their inventory across multiple locations.',
         projectOverview: 'InStock is a robust inventory management system built with a focus on the Model-View-Controller (MVC) architecture. Utilizing ReactJS for the front end and ExpressJS with Node.js for the back end, we developed a seamless application that interacts with a MySQL database via the Knex.js library. The system includes full CRUD functionality, empowering clients to create, read, update, and delete inventory items effortlessly.',
-        videoSrc: '/videos/Bandsite.mp4',
+        videoSrc: '/videos/Instock.mp4',
         technologies: ['ReactJS', 'Node.js', 'ExpressJS', 'MySQL', 'Knex.js', 'SASS'],
         features: [
             'Full CRUD Functionality: Clients can easily manage inventory items, including adding, viewing, updating, and deleting records.',
@@ -85,6 +84,50 @@ const projectData = {
         ],
          note: "Due to intellectual property concerns, the repository for this project cannot be made public but can be provided for review upon request."
     },
+    recipespark: {
+        title: 'The Journey Behind Recipe Spark: A Delightful Recipe Finder',
+        description: 'In this blog post, I will walk you through the development of Recipe Spark, a recipe finder application that originated from a hackathon challenge. Initially created in under 5 hours, the app was styled and enhanced afterward to offer a seamless user experience. It allows users to browse through various meal categories, select recipes, and explore detailed instructions using data from the MealDB API.',
+        projectOverview: 'Recipe Spark is a simple yet powerful recipe application built using ReactJS, with the MealDB API as its data source. The application features three main pages: Menu, Category, and Recipe, providing users with a dynamic and intuitive way to discover new recipes. This project emphasizes clear navigation and responsiveness, making it accessible on both desktop and mobile devices.',
+        videoSrc: '/videos/Recipe-spark.mp4',
+        technologies: ['ReactJS', 'Axios', 'MealDB API', 'SASS', 'JavaScript'],
+        features: [
+            'Category-Based Browsing: Users can browse through various meal categories such as desserts, seafood, and vegetarian dishes.',
+            'Dynamic Recipe Selection: Upon selecting a category, users can view a list of recipes with accompanying details such as ingredients and cooking instructions.',
+            'Clean and Responsive UI: Recipe Spark offers a clean, modern user interface, ensuring smooth navigation across devices of all screen sizes.'
+        ],
+        keyLearnings: [
+            'Learned to integrate third-party APIs (MealDB API) to fetch and display dynamic data.',
+            'Strengthened my ability to build functional and responsive UIs with ReactJS.',
+            'Gained experience in developing web applications within a limited timeframe during a hackathon setting, improving time-management and problem-solving skills.',
+            'Enhanced my understanding of component-based architecture in React, facilitating better state management and code organization.'
+        ],
+        note: "Recipe Spark was initially developed during a hackathon and refined afterward. You can explore the codebase on GitHub: [GitHub Repository](https://github.com/yoginak/Recipe-Website)."
+    },
+    reflectify: {
+        title: 'Reflectify: Empowering Self-Reflection Through Mood Tracking and Journaling',
+        description: 'In this blog post, I will take you through the journey of creating Reflectify, a comprehensive mood tracking and journaling application designed to help users monitor their emotional well-being. Built as my capstone project, Reflectify combines mood tracking, journaling, trend analysis, and personalized insights, offering users an intuitive tool for self-reflection and personal growth.',
+        projectOverview: 'Reflectify is a full-stack web application developed using ReactJS for the front end and Node.js with ExpressJS for the back end. The app interacts with a MySQL database via the Knex.js library, allowing users to track their moods, write journal entries, and view mood trends over time through visual charts. It also includes AI-driven insights based on user data, helping users gain a deeper understanding of their emotional patterns.',
+        videoSrc: '/videos/Reflectify_capstone.mp4',
+        technologies: ['ReactJS', 'Node.js', 'ExpressJS', 'MySQL', 'Knex.js', 'SASS', 'Chart.js', 'Axios'],
+        features: [
+            'Mood Tracking: Users can log their moods, with options for different moods such as good, bad, meh, sad, loved, and angry.',
+            'Journaling: Reflectify provides users with a space to write daily journal entries, which can be saved and revisited later.',
+            'Mood Trends and Analytics: Users can visualize their mood data over time with customizable date ranges using Chart.js, helping them identify emotional patterns.',
+            'AI-Driven Insights: The application offers insights and mood enhancement tips based on a wellness questionnaire and user input, powered by AI.',
+            'Download and Share Reports: Users can download mood trend charts to share with therapists or counselors for better tracking of emotional well-being.'
+        ],
+        keyLearnings: [
+            'Learned to build a full-stack web application, integrating the front end and back end seamlessly with a MySQL database.',
+            'Gained proficiency in using Chart.js for data visualization, enabling users to explore trends in their mood over time.',
+            'Strengthened skills in managing user authentication and state management in React, enhancing the user experience and data security.',
+            'Deepened understanding of API integration with Axios for asynchronous communication between the client and server.',
+            'Gained experience in utilizing AI-based tools to offer personalized insights and enhance the user experience.'
+        ],
+        note: "Reflectify was built as my capstone project and showcases advanced functionality for tracking mood trends and offering self-reflection tools. The repository for Reflectify is available on GitHub: <a href='https://github.com/your-username/reflectify' target='_blank'>GitHub Repository</a>."
+        
+    },
+    
+    
 };
 
 const ProjectPage = () => {

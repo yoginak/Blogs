@@ -1,8 +1,11 @@
-@import "../src/styles/partials/global";
-@import "../src/styles/partials/variables";
-@import "../src/styles/partials/mixins";
-@import "../src/styles/partials/typography";
+@import "src/styles/partial/global";
+@import "../src/styles/partial/variables";
+@import "../src/styles/partial/mixins";
+@import "../src/styles/partial/typography";
 
-* {
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Comfortaa', serif; 
   }

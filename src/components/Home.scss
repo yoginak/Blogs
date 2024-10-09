@@ -1,10 +1,22 @@
 @import "../styles/partial/mixins";
 @import "../styles/partial/typography";
+@import "../styles/partial/variables";
 
 .home {
-    background: linear-gradient(135deg, #ff7e5f, #feb47b); 
-  
-  }
+    &__text{
+        margin: 1rem 3rem;
+    }
+}
+
+.project-header {
+    background: linear-gradient(90deg, $header-blue 0%, $header-purple 100%);
+    color: white;
+    display: flex;              
+    justify-content: center;   
+    margin: 0;       
+    padding: 20px; 
+    font-size: 2rem; 
+}
 
 .project-list {
     display: flex;
@@ -14,17 +26,11 @@
     padding: 20px;           
 }
 
-.project-header {
-    display: flex;              
-    justify-content: center;          
-}
-
 .project-item {
     text-align: center;     
-    width:150px;   
-    @include desktop{
-        width:400px;
-    }     
+    width: 100%;  
+    max-width: 150px; 
+    margin: 2rem;  
 }
 
 .project-image {
@@ -34,12 +40,20 @@
     @include desktop{
         width:300px;
         height:210px;
-    }  
+    } 
 }
 
 .project-title {
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
     margin-top: 10px;       
     font-size: 1.2rem;      
     color: #333;            
     text-decoration: none;  
+    padding: 0 1rem; 
+}
+
+.project-link{
+    text-decoration: none; 
 }
