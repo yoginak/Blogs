@@ -67,7 +67,7 @@ const Home = () => {
 
   return (
     <Box className="home">  
-              <p className='home__text'>I invite you to explore my curated collection of personal projects, each a reflection of my growth and dedication as a software developer. Throughout my learning journey, I have embraced challenges and sought innovative solutions, resulting in a diverse range of projects that showcase my technical skills and creativity. Thank you for taking the time to visit! I hope these projects provide you insight into my journey as a developer.</p>
+              <p className='home__text'>Explore my collection of personal projects that reflect my learning journey as a software developer. Each project showcases my commitment to continuous growth, innovative problem-solving, and mastery of diverse technologies. From user-friendly interfaces to robust back-end solutions, my work highlights both technical skills and creativity. Thank you for taking the time to visit! I hope these projects provide you insight into my journey as a developer.</p>
       <Hero/>
       
       <Slider {...settings}>

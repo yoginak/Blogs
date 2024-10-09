@@ -11,12 +11,12 @@ const Footer = () => {
           <ul className="footer__links">
             <li>
               <a href="https://github.com/yoginak" target="_blank" rel="noopener noreferrer">
-                <FaGithub size={20} /> {/* GitHub icon */}
+                <FaGithub size={20} color='white' /> 
               </a>
             </li>
             <li>
               <a href="https://linkedin.com/in/yogina" target="_blank" rel="noopener noreferrer">
-                <FaLinkedin size={20} /> {/* LinkedIn icon */}
+                <FaLinkedin size={20} color='white'/> 
               </a>
             </li>
           </ul>
