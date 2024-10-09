@@ -27,7 +27,7 @@ const Home = () => {
     {
       title: 'Bandsite',
       image: '/images/Bandsite.png',
-      link: '/project/Bandsite',
+      link: '/project/bandsite',
     },
     {
       title: 'Coffee Shop',
