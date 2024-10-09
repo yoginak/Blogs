@@ -1,8 +1,44 @@
-# React + Vite
+# Blogs
+ It is a responsive platform designed to display my various projects and demos. This application serves as a digital portfolio, allowing users to explore my work, understand my design process, and engage with the showcased content. Built as a personal initiative, the Blogs application aims to highlight my journey as a developer.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here are some images from the web application:
+![Home Page image](public/images/Blogs.png)
 
-Currently, two official plugins are available:
+![Project Page image](public/images/Blog-details.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+### Prerequisites
+
+- **Node.js** (v14 or above)
+- **npm** or **yarn**
+
+### Steps to Set Up
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/Recipe-Website.git
+    ```
+
+2. **Navigate to the project directory**:
+    ```bash
+    cd Recipe-Website
+    ```
+
+3. **Install the dependencies**:
+    ```bash
+    npm install
+    ```
+    or
+    ```bash
+    yarn install
+    ```
+
+4. **Run the development server**:
+    ```bash
+    npm start
+    ```
+    or
+    ```bash
+    yarn start
+    ```
