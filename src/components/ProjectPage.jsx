@@ -14,7 +14,7 @@ const projectData = {
     projectOverview:
       "BrainFlix is a dynamic video-sharing application inspired by platforms like YouTube. Developed during my time at BrainStation, this project was completed over three one-week sprints, focusing on understanding the fundamentals of React, state management, React Router, component lifecycles, Node.js, and Express. Users can seamlessly browse through video pages using dynamic routing, upload videos, comment on them, and manage their comments. This interactive approach fosters user engagement and enhances the overall experience.",
     videoSrc: "/videos/Demo- Brainflix.mp4",
-    technologies: ["React", "React Router", "SASS", "Node.js", "Express", "APIs", "Axios", "Javascript"],
+    technologies: ["React", "React Router", "SASS", "Node.js", "Express", "APIs", "Axios", "Javascript","Figma"],
     features: [
       "Fully Responsive Design: The application seamlessly adapts to various screen sizes, ensuring an optimal viewing experience on desktop, tablet, and mobile devices.",
       "Dynamic Video List: Users can easily browse and access the latest videos, keeping the content fresh and engaging.",
@@ -37,7 +37,7 @@ const projectData = {
     projectOverview:
       "Bandsite is a fully functional website that presents concert dates and information about the band. Built with a focus on user experience, this project incorporates dynamic data fetched from an Express API hosted on Heroku, allowing users to post comments. Note that comments are refreshed every 24 hours, making this a demonstration project. Throughout the development process, I utilized BEM methodology for class naming and Flexbox for layout, ensuring a responsive design that adapts to various screen dimensions.",
     videoSrc: "/videos/Bandsite.mp4",
-    technologies: ["HTML", "CSS", "SASS", "JavaScript", "Express", "API", "Axios"],
+    technologies: ["HTML", "CSS", "SASS", "JavaScript", "Express", "API", "Axios","Figma"],
     features: [
       "Responsive Multi-Page Layout: The website adapts seamlessly to different screen sizes, ensuring optimal usability on both desktop and mobile devices.",
       "Dynamic Concert Information: Users can view concert dates and details, providing them with up-to-date information about the band.",
@@ -60,7 +60,7 @@ const projectData = {
     projectOverview:
       "Coffeeshop, also known as Nitro Coffee, is my first web development project, built during my time at BrainStation using HTML and CSS. It features a clean layout to display menu items, current promotions, and contact details effectively.",
     videoSrc: "/videos/coffee-shop.mp4",
-    technologies: ["HTML", "CSS", "CSS Animations"],
+    technologies: ["HTML", "CSS", "Animations"],
     features: [
       "Static Multi-Page Design: Users can easily navigate through different pages displaying the menu, promotions, and contact information.",
       "Animations: Incorporated various animations throughout the website to enhance user engagement and visual appeal.",
@@ -79,7 +79,7 @@ const projectData = {
     description:
       "In this blog post, I will share the journey of developing InStock, an inventory management system designed to emulate a real chain of warehouses. Our goal was to create an intuitive and powerful system that enables clients to efficiently manage their inventory across multiple locations.",
     projectOverview:
-      "InStock is a robust inventory management system built with a focus on the Model-View-Controller (MVC) architecture. Utilizing ReactJS for the front end and ExpressJS with Node.js for the back end, we developed a seamless application that interacts with a MySQL database via the Knex.js library. The system includes full CRUD functionality, empowering clients to create, read, update, and delete inventory items effortlessly.",
+      "InStock is a robust inventory management system built with a focus on the Model-View-Controller (MVC) architecture. Utilizing ReactJS for the front end and ExpressJS with Node.js for the back end and JIRA for task tracking,  developed a seamless application that interacts with a MySQL database via the Knex.js library. The system includes full CRUD functionality, empowering clients to create, read, update, and delete inventory items effortlessly.",
     videoSrc: "/videos/Instock.mp4",
     technologies: [
       "ReactJS",
@@ -90,7 +90,9 @@ const projectData = {
       "Knex.js",
       "SASS",
       "Axios",
-      "Bootstrap"
+      "Bootstrap",
+      ,"Figma",
+      "JIRA"
     ],
     features: [
       "Full CRUD Functionality: Clients can easily manage inventory items, including adding, viewing, updating, and deleting records.",
@@ -147,14 +149,17 @@ const projectData = {
       "Chart.js",
       "Axios",
       "Open AI",
-      "Javacript"
+      "Javacript",
+      "Figma",
+      "JWT Authentication"
     ],
     features: [
       "Mood Tracking: Users can log their moods, with options for different moods such as good, bad, meh, sad, loved, and angry.",
       "Journaling: Reflectify provides users with a space to write daily journal entries, which can be saved and revisited later.",
       "Mood Trends and Analytics: Users can visualize their mood data over time with customizable date ranges using Chart.js, helping them identify emotional patterns.",
-      "AI-Driven Insights: The application offers insights and mood enhancement tips based on a wellness questionnaire and user input, powered by AI.",
+      "AI-Driven Personalized Insights: The application offers insights and mood enhancement tips based on a wellness questionnaire and user input, powered by AI.",
       "Download and Share Reports: Users can download mood trend charts to share with therapists or counselors for better tracking of emotional well-being.",
+      "Self Reflection Tools: Users can use the built-in relaxation tools, including guided meditation and breathing exercises, to gain mindfulness and manage stress and anxiety."
     ],
     keyLearnings: [
       "Learned to build a full-stack web application, integrating the front end and back end seamlessly with a MySQL database.",
