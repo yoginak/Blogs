@@ -18,7 +18,7 @@ const projectData = {
     features: [
       "Fully Responsive Design: The application seamlessly adapts to various screen sizes, ensuring an optimal viewing experience on desktop, tablet, and mobile devices.",
       "Dynamic Video List: Users can easily browse and access the latest videos, keeping the content fresh and engaging.",
-      "User-Friendly Video Upload Form: The application allows users to upload new videos directly, promoting interactivity and enhancing user engagement.",
+      "User-Friendly Video Upload Form: The application allows users to upload new video thumbnails directly, promoting interactivity and enhancing user engagement.",
       "Commenting System: Users can post and delete comments on videos and manage them easily, facilitating community interaction and feedback.",
     ],
     keyLearnings: [
