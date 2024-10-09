@@ -14,7 +14,7 @@ const projectData = {
     projectOverview:
       "BrainFlix is a dynamic video-sharing application inspired by platforms like YouTube. Developed during my time at BrainStation, this project was completed over three one-week sprints, focusing on understanding the fundamentals of React, state management, React Router, component lifecycles, Node.js, and Express. Users can seamlessly browse through video pages using dynamic routing, upload videos, comment on them, and manage their comments. This interactive approach fosters user engagement and enhances the overall experience.",
     videoSrc: "/videos/Demo- Brainflix.mp4",
-    technologies: ["React", "Node.js", "Express", "APIs", "Axios", "Javascript"],
+    technologies: ["React", "React Router", "SASS", "Node.js", "Express", "APIs", "Axios", "Javascript"],
     features: [
       "Fully Responsive Design: The application seamlessly adapts to various screen sizes, ensuring an optimal viewing experience on desktop, tablet, and mobile devices.",
       "Dynamic Video List: Users can easily browse and access the latest videos, keeping the content fresh and engaging.",
@@ -83,6 +83,7 @@ const projectData = {
     videoSrc: "/videos/Instock.mp4",
     technologies: [
       "ReactJS",
+      "React Router",
       "Node.js",
       "ExpressJS",
       "MySQL",
@@ -112,7 +113,7 @@ const projectData = {
     projectOverview:
       "Recipe Spark is a simple yet powerful recipe application built using ReactJS, with the MealDB API as its data source. The application features three main pages: Menu, Category, and Recipe, providing users with a dynamic and intuitive way to discover new recipes. This project emphasizes clear navigation and responsiveness, making it accessible on both desktop and mobile devices.",
     videoSrc: "/videos/Recipe-spark.mp4",
-    technologies: ["ReactJS", "Axios", "MealDB API", "SASS", "JavaScript"],
+    technologies: ["ReactJS", "React Router", "Axios", "MealDB API", "SASS", "JavaScript"],
     features: [
       "Category-Based Browsing: Users can browse through various meal categories such as desserts, seafood, and vegetarian dishes.",
       "Dynamic Recipe Selection: Upon selecting a category, users can view a list of recipes with accompanying details such as ingredients and cooking instructions.",
@@ -136,6 +137,7 @@ const projectData = {
     videoSrc: "/videos/Reflectify_capstone.mp4",
     technologies: [
       "ReactJS",
+      "React Router",
       "Node.js",
       "ExpressJS",
       "MySQL",
