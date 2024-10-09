@@ -11,32 +11,32 @@ const Home = () => {
   const projects = [
     {
       title: 'Reflectify',
-      image: '/images/Reflectify.png',
+      image: `${import.meta.env.BASE_URL}images/Reflectify.png`, 
       link: '/project/reflectify',
     },
     {
       title: 'Recipe Website',
-      image: '/images/Recipe-project.png',
+      image: `${import.meta.env.BASE_URL}images/Recipe-project.png`, 
       link: '/project/recipespark',
     },
     {
       title: 'BrainFlix',
-      image: '/images/BrainFlix.png',
+      image: `${import.meta.env.BASE_URL}images/BrainFlix.png`, 
       link: '/project/brainflix',
     },
     {
       title: 'Bandsite',
-      image: '/images/Bandsite.png',
+      image: `${import.meta.env.BASE_URL}images/Bandsite.png`, 
       link: '/project/bandsite',
     },
     {
       title: 'Coffee Shop',
-      image: '/images/coffeeshop.png',
+      image: `${import.meta.env.BASE_URL}images/coffeeshop.png`, 
       link: '/project/coffeeshop',
     },
     {
       title: 'Instock',
-      image: '/images/Instock.png',
+      image: `${import.meta.env.BASE_URL}images/Instock.png`, 
       link: '/project/instock',
     },
   ];
@@ -67,7 +67,9 @@ const Home = () => {
 
   return (
     <Box className="home">  
-              <p className='home__text'>Explore my collection of personal projects that reflect my learning journey as a software developer. Each project showcases my commitment to continuous growth, innovative problem-solving, and mastery of diverse technologies. From user-friendly interfaces to robust back-end solutions, my work highlights both technical skills and creativity. Thank you for taking the time to visit! I hope these projects provide you insight into my journey as a developer.</p>
+      <p className='home__text'>
+        Explore my collection of personal projects that reflect my learning journey as a software developer. Each project showcases my commitment to continuous growth, innovative problem-solving, and mastery of diverse technologies. From user-friendly interfaces to robust back-end solutions, my work highlights both technical skills and creativity. Thank you for taking the time to visit! I hope these projects provide you insight into my journey as a developer.
+      </p>
       <Hero/>
       
       <Slider {...settings}>

@@ -13,7 +13,7 @@ const projectData = {
       "In this blog post, I will take you behind the scenes of the development process for BrainFlix, a full-stack project that showcases my skills across various technologies, including React, React-Router, Node.js, Express, and APIs. I will share the technical details and standout features that make BrainFlix unique.",
     projectOverview:
       "BrainFlix is a dynamic video-sharing application inspired by platforms like YouTube. Developed during my time at BrainStation, this project was completed over three one-week sprints, focusing on understanding the fundamentals of React, state management, React Router, component lifecycles, Node.js, and Express. Users can seamlessly browse through video pages using dynamic routing, upload videos, comment on them, and manage their comments. This interactive approach fosters user engagement and enhances the overall experience.",
-    videoSrc: "/videos/Demo- Brainflix.mp4",
+    videoSrc: "Demo- Brainflix.mp4",
     technologies: ["React", "React Router", "SASS", "Node.js", "Express", "APIs", "Axios", "Javascript","Figma"],
     features: [
       "Fully Responsive Design: The application seamlessly adapts to various screen sizes, ensuring an optimal viewing experience on desktop, tablet, and mobile devices.",
@@ -36,7 +36,7 @@ const projectData = {
       'In this blog post, I will take you through the development journey of Bandsite, a fully responsive front-end application designed for the fictional band "The Bees Knees." This project showcases my ability to create a dynamic and interactive multi-page website using HTML, vanilla JavaScript, and Sass for styling and visual responsiveness.',
     projectOverview:
       "Bandsite is a fully functional website that presents concert dates and information about the band. Built with a focus on user experience, this project incorporates dynamic data fetched from an Express API hosted on Heroku, allowing users to post comments. Note that comments are refreshed every 24 hours, making this a demonstration project. Throughout the development process, I utilized BEM methodology for class naming and Flexbox for layout, ensuring a responsive design that adapts to various screen dimensions.",
-    videoSrc: "/videos/Bandsite.mp4",
+    videoSrc: "Bandsite.mp4",
     technologies: ["HTML", "CSS", "SASS", "JavaScript", "Express", "API", "Axios","Figma"],
     features: [
       "Responsive Multi-Page Layout: The website adapts seamlessly to different screen sizes, ensuring optimal usability on both desktop and mobile devices.",
@@ -59,7 +59,7 @@ const projectData = {
       "A static, multi-page coffee shop website showcasing menu items, promotions, and contact information.",
     projectOverview:
       "Coffeeshop, also known as Nitro Coffee, is my first web development project, built during my time at BrainStation using HTML and CSS. It features a clean layout to display menu items, current promotions, and contact details effectively.",
-    videoSrc: "/videos/coffee-shop.mp4",
+    videoSrc: "coffee-shop.mp4",
     technologies: ["HTML", "CSS", "Animations"],
     features: [
       "Static Multi-Page Design: Users can easily navigate through different pages displaying the menu, promotions, and contact information.",
@@ -80,7 +80,7 @@ const projectData = {
       "In this blog post, I will share the journey of developing InStock, an inventory management system designed to emulate a real chain of warehouses. Our goal was to create an intuitive and powerful system that enables clients to efficiently manage their inventory across multiple locations.",
     projectOverview:
       "InStock is a robust inventory management system built with a focus on the Model-View-Controller (MVC) architecture. Utilizing ReactJS for the front end and ExpressJS with Node.js for the back end and JIRA for task tracking,  developed a seamless application that interacts with a MySQL database via the Knex.js library. The system includes full CRUD functionality, empowering clients to create, read, update, and delete inventory items effortlessly.",
-    videoSrc: "/videos/Instock.mp4",
+    videoSrc: "Instock.mp4",
     technologies: [
       "ReactJS",
       "React Router",
@@ -114,7 +114,7 @@ const projectData = {
       "In this blog post, I will walk you through the development of Recipe Spark, a recipe finder application that originated from a hackathon challenge. Initially created in under 5 hours, the app was styled and enhanced afterward to offer a seamless user experience. It allows users to browse through various meal categories, select recipes, and explore detailed instructions using data from the MealDB API.",
     projectOverview:
       "Recipe Spark is a simple yet powerful recipe application built using ReactJS, with the MealDB API as its data source. The application features three main pages: Menu, Category, and Recipe, providing users with a dynamic and intuitive way to discover new recipes. This project emphasizes clear navigation and responsiveness, making it accessible on both desktop and mobile devices.",
-    videoSrc: "/videos/Recipe-spark.mp4",
+    videoSrc: "Recipe-spark.mp4",
     technologies: ["ReactJS", "React Router", "Axios", "MealDB API", "SASS", "JavaScript"],
     features: [
       "Category-Based Browsing: Users can browse through various meal categories such as desserts, seafood, and vegetarian dishes.",
@@ -136,7 +136,7 @@ const projectData = {
       "In this blog post, I will take you through the journey of creating Reflectify, a comprehensive mood tracking and journaling application designed to help users monitor their emotional well-being. Built as my capstone project, Reflectify combines mood tracking, journaling, trend analysis, and personalized insights, offering users an intuitive tool for self-reflection and personal growth.",
     projectOverview:
       "Reflectify is a full-stack web application developed using ReactJS for the front end and Node.js with ExpressJS for the back end. The app interacts with a MySQL database via the Knex.js library, allowing users to track their moods, write journal entries, and view mood trends over time through visual charts. It also includes AI-driven insights based on user data, helping users gain a deeper understanding of their emotional patterns.",
-    videoSrc: "/videos/Reflectify_capstone.mp4",
+    videoSrc: "Reflectify_capstone.mp4",
     technologies: [
       "ReactJS",
       "React Router",
