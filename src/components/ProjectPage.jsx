@@ -14,7 +14,7 @@ const projectData = {
     projectOverview:
       "BrainFlix is a dynamic video-sharing application inspired by platforms like YouTube. Developed during my time at BrainStation, this project was completed over three one-week sprints, focusing on understanding the fundamentals of React, state management, React Router, component lifecycles, Node.js, and Express. Users can seamlessly browse through video pages using dynamic routing, upload videos, comment on them, and manage their comments. This interactive approach fosters user engagement and enhances the overall experience.",
     videoSrc: "/videos/Demo- Brainflix.mp4",
-    technologies: ["React", "Node.js", "Express", "APIs"],
+    technologies: ["React", "Node.js", "Express", "APIs", "Axios", "Javascript"],
     features: [
       "Fully Responsive Design: The application seamlessly adapts to various screen sizes, ensuring an optimal viewing experience on desktop, tablet, and mobile devices.",
       "Dynamic Video List: Users can easily browse and access the latest videos, keeping the content fresh and engaging.",
@@ -37,7 +37,7 @@ const projectData = {
     projectOverview:
       "Bandsite is a fully functional website that presents concert dates and information about the band. Built with a focus on user experience, this project incorporates dynamic data fetched from an Express API hosted on Heroku, allowing users to post comments. Note that comments are refreshed every 24 hours, making this a demonstration project. Throughout the development process, I utilized BEM methodology for class naming and Flexbox for layout, ensuring a responsive design that adapts to various screen dimensions.",
     videoSrc: "/videos/Bandsite.mp4",
-    technologies: ["HTML", "CSS", "Sass", "JavaScript", "Express", "API", "Axios"],
+    technologies: ["HTML", "CSS", "SASS", "JavaScript", "Express", "API", "Axios"],
     features: [
       "Responsive Multi-Page Layout: The website adapts seamlessly to different screen sizes, ensuring optimal usability on both desktop and mobile devices.",
       "Dynamic Concert Information: Users can view concert dates and details, providing them with up-to-date information about the band.",
@@ -88,6 +88,8 @@ const projectData = {
       "MySQL",
       "Knex.js",
       "SASS",
+      "Axios",
+      "Bootstrap"
     ],
     features: [
       "Full CRUD Functionality: Clients can easily manage inventory items, including adding, viewing, updating, and deleting records.",
@@ -138,6 +140,7 @@ const projectData = {
       "ExpressJS",
       "MySQL",
       "Knex.js",
+      "Bootstrap",
       "SASS",
       "Chart.js",
       "Axios",
