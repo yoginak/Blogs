@@ -182,7 +182,7 @@ const ProjectPage = () => {
 
   return (
     <div className="project-page">
-      <a className="project-page__link" href="/">
+      <a className="project-page__link" href="/Blogs/">
         <FontAwesomeIcon icon={faArrowLeftLong} />
         &nbsp;&nbsp;Back to Home
       </a>
