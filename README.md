@@ -1,7 +1,10 @@
 # Blogs
  It is a responsive platform designed to display my various projects and demos. This application serves as a digital portfolio, allowing users to explore my work, understand my design process, and engage with the showcased content. Built as a personal initiative, the Blogs application aims to highlight my journey as a developer.
 
-Here are some images from the web application:
+## The site is live at- 
+https://yoginak.github.io/Blogs/
+
+- Here are some images from the web application:
 ![Home Page image](public/images/Blogs.png)
 
 ![Project Page image](public/images/Blog-details.png)
