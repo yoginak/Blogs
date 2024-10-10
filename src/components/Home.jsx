@@ -82,7 +82,6 @@ const Home = () => {
         Thank you for taking the time to visit! I hope these projects provide
         you insight into my journey as a developer.
       </p>
-      <br/>
       <p className="home__text"> If you wish to know more, explore my <a href="https://yoginak.github.io" target="_blank">portfolio website</a>, where you can delve into my skills, discover my professional journey, and access my resume to see how I can contribute to your next project.</p>
       <Hero />
 
