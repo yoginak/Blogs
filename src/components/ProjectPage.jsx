@@ -181,11 +181,7 @@ const ProjectPage = () => {
   }
 
   return (
-    <div className="project-page">
-      <a className="project-page__link" href="/Blogs/">
-        <FontAwesomeIcon icon={faArrowLeftLong} />
-        &nbsp;&nbsp;Back to Home
-      </a>
+    <div className="project-page">      
       {project.videoSrc ? (
         <Video src={project.videoSrc} title={project.title} />
       ) : (
@@ -200,6 +196,10 @@ const ProjectPage = () => {
         keyLearnings={project.keyLearnings || []}
         note={project.note}
       />
+      <a className="project-page__link" href="/Blogs/">
+        <FontAwesomeIcon icon={faArrowLeftLong} />
+        &nbsp;&nbsp;Back to Home
+      </a>
     </div>
   );
 };
