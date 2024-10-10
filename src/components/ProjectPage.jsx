@@ -127,7 +127,7 @@ const projectData = {
       "Gained experience in developing web applications within a limited timeframe during a hackathon setting, improving time-management and problem-solving skills.",
       "Enhanced my understanding of component-based architecture in React, facilitating better state management and code organization.",
     ],
-    note: "Recipe Spark was initially developed during a hackathon and refined afterward. You can explore the codebase on GitHub: [GitHub Repository](https://github.com/yoginak/Recipe-Website).",
+    note: "Recipe Spark was initially developed during a hackathon and refined afterward. You can explore the codebase on GitHub: <a href='https://github.com/yoginak/Recipe-Website' target='_blank'>GitHub Repository</a>.",
   },
   reflectify: {
     title:
