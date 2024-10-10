@@ -29,16 +29,16 @@ const Home = () => {
       title: "Bandsite",
       image: `${import.meta.env.BASE_URL}images/Bandsite.png`,
       link: "/project/bandsite",
+    },    
+    {
+      title: "Instock",
+      image: `${import.meta.env.BASE_URL}images/Instock.png`,
+      link: "/project/instock",
     },
     {
       title: "Coffee Shop",
       image: `${import.meta.env.BASE_URL}images/coffeeshop.png`,
       link: "/project/coffeeshop",
-    },
-    {
-      title: "Instock",
-      image: `${import.meta.env.BASE_URL}images/Instock.png`,
-      link: "/project/instock",
     },
   ];
 
