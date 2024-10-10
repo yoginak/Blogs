@@ -3,57 +3,63 @@
 @import "../styles/partial/variables";
 
 .home {
-    &__text{
-        margin: 2rem 3rem 0 3rem;
-    }
+  &__text {
+    margin: 2rem 3rem 0 3rem;
+  }
 }
 
 .project-header {
-    background: linear-gradient(90deg, $header-blue 0%, $header-purple 100%);
-    color: white;
-    display: flex;              
-    justify-content: center;   
-    margin: 0;       
-    padding: 20px; 
-    font-size: 2rem; 
+  background: linear-gradient(90deg, $header-blue 0%, $header-purple 100%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 20px;
+  font-size: 2rem;
 }
 
 .project-list {
-    display: flex;
-    flex-wrap: wrap;         
-    gap: 20px;               
-    justify-content: center; 
-    padding: 20px;           
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
 }
 
 .project-item {
-    text-align: center;     
-    width: 100%;  
-    max-width: 150px; 
-    margin: 2rem;  
+  text-align: center;
+  width: 100%;
+  max-width: 150px;
+  margin: 2rem;
 }
 
 .project-image {
-    width: 150px;            
-    height: 105px;           
-    border-radius: 8px;   
-    @include desktop{
-        width:300px;
-        height:210px;
-    } 
+  width: 150px;
+  height: 105px;
+  border-radius: 8px;
+  @include desktop {
+    width: 300px;
+    height: 210px;
+  }
 }
 
 .project-title {
-    width:100%;
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 10px;       
-    font-size: 1.2rem;      
-    color: #333;            
-    text-decoration: none;  
-    padding: 0 1rem; 
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #333;
+  text-decoration: none;
+  padding: 0 1rem;
+  transition: text-decoration 0.3s, color 0.3s;
+  &:hover {
+    text-decoration: underline;
+    color: $header-blue;
+    cursor: pointer;
+  }
 }
 
-.project-link{
-    text-decoration: none; 
+.project-link {
+  text-decoration: none;
 }
