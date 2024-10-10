@@ -74,7 +74,7 @@ const Home = () => {
   return (
     <Box className="home">
       <p className="home__text">
-        Explore my collection of personal projects that reflect my learning
+        Welcome! Explore my collection of personal projects that reflect my learning
         journey as a software developer. Each project showcases my commitment to
         continuous growth, innovative problem-solving, and mastery of diverse
         technologies. From user-friendly interfaces to robust back-end
@@ -82,6 +82,8 @@ const Home = () => {
         Thank you for taking the time to visit! I hope these projects provide
         you insight into my journey as a developer.
       </p>
+      <br/>
+      <p> If you wish to know more, explore my <a href="https://yoginak.github.io" target="_blank">portfolio website</a>, where you can delve into my skills, discover my professional journey, and access my resume to see how I can contribute to your next project.</p>
       <Hero />
 
       <Slider {...settings}>
